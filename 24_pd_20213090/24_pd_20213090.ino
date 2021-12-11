@@ -15,16 +15,16 @@
 #define _DIST_MAX 410       //[20191979] 최대거리
 
 // Distance sensor
-#define _DIST_ALPHA 0.05 //[20203118] DIST_ALPHA 값 설정
+#define _DIST_ALPHA 0.07 //[20203118] DIST_ALPHA 값 설정
 
 // Servo range
 #define _DUTY_MIN 1170    // [20213083]서보 각도의 최솟값 설정
-#define _DUTY_NEU 1530    // [20213090]서보 수평 각도 펄스 값
+#define _DUTY_NEU 1550    // [20213090]서보 수평 각도 펄스 값
 #define _DUTY_MAX 1950    // [20213081] 서보 각도의 최댓값
 
 // Servo speed control
 #define _SERVO_ANGLE 30.0
-#define _SERVO_SPEED 30.0
+#define _SERVO_SPEED 40.0
 
 // Event periods
 #define _INTERVAL_DIST 20   // [20213099] 거리 센서 주기 설정
@@ -35,7 +35,7 @@
 #define _KP 1
 #define _KD 60.0
 
-#define a 95
+#define a 100
 #define b 330
 
 //////////////////////
